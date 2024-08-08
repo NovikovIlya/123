@@ -7,7 +7,7 @@ export const abiturientApi = createApi({
     baseUrl: 'https://abiturient.kpfu.ru/entrant',
     prepareHeaders: (headers, { getState }) => {
       // Добавление заголовка для указания кодировки
-      headers.set('Content-Type', 'application/x-www-form-urlencoded');
+      headers.set('Content-Type', 'application/x-www-form-urlencoded; charset=windows-1251');
       return headers;
     },
   }),
