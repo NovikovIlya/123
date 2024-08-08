@@ -1,0 +1,43 @@
+.burger {
+	width: 20px;
+	height: 50%;
+	cursor: pointer;
+	position: relative;
+}
+
+.burger__line {
+	display: block;
+	width: 100%;
+	min-height: 2.5px;
+	max-height: 2.5px;
+	position: absolute;
+	left: 0;
+	transition: 0.3s all linear;
+}
+
+.burger__line_first {
+	top: 0;
+}
+
+.burger__line_second,
+.burger__line_third {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.burger__line_fourth {
+	bottom: 0;
+}
+
+.burger_active .burger__line_first,
+.burger_active .burger__line_fourth {
+	opacity: 0;
+}
+
+.burger_active .burger__line_second {
+	transform: translateY(-50%) rotate(45deg);
+}
+
+.burger_active .burger__line_third {
+	transform: translateY(-50%) rotate(-45deg);
+}
