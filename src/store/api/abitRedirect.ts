@@ -21,6 +21,7 @@ export const abiturientApi = createApi({
           url: '/abit_registration.kfuscript',
           method: 'POST',
           body: encodedData,
+          responseHandler: (response) => response.text(),
         };
       },
     }),

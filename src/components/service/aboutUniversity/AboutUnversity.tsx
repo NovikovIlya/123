@@ -10,6 +10,7 @@ import universityPicture from '../../../assets/images/universityView.png'
 import { StartPlaySVG, StopPlaySVG } from '../../../assets/svg'
 import { LargeLogoSVG, QuotationMarksSVG } from '../../../assets/svg'
 // import mp4 from '../../../assets/video/Kfu.mp4'
+// import mp4 from '../../../assets/mp4.mp4'
 import { Footer } from '../../layout/Footer'
 
 import Styles from './AboutUniversity.module.scss'
@@ -90,14 +91,14 @@ const AboutUniversity = () => {
 					interdisciplinary fields.
 				</span>
 				<div className="relative m-auto min-[1100px]:w-[885px] w-[885px] min-[1100px]:h-[500px] h-[500px] max-[1100px]:hidden">
-					{/* <div
+					 {/* <div
 						className="absolute right-32 bottom-16 z-10 bg-bluekfu w-[100px] min-[1100px]:w-[80px] min-[1100px]:h-[80px] h-[100px] cursor-pointer flex justify-center items-center rounded-full"
 						onClick={() => {
 							changePlay(!play)
 						}}
 					>
 						{play ? <StopPlaySVG /> : <StartPlaySVG />}
-					</div> */}
+					</div>  */}
 					<Typography.Title
 						level={2}
 						style={{ color: 'white' }}
@@ -105,8 +106,8 @@ const AboutUniversity = () => {
 					>
 						Kazan <br /> Federal University
 					</Typography.Title>
-					{/* <div className="left-0 right-0 bottom-0 top-0 absolute">
-						<ReactPlayer
+					<div className="left-0 right-0 bottom-0 top-0 absolute">
+						{/* <ReactPlayer
 							url={mp4}
 							width={'100%'}
 							height={'100%'}
@@ -115,8 +116,8 @@ const AboutUniversity = () => {
 							onEnded={() => changePlay(false)}
 							onPause={() => play && changePlay(false)}
 							onPlay={() => !play && changePlay(true)}
-						/>
-					</div> */}
+						/> */}
+					</div>
 				</div>
 			</div>
 			<Footer />

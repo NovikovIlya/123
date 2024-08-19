@@ -3,7 +3,7 @@ import {
 	CloseOutlined,
 	LoadingOutlined
 } from '@ant-design/icons'
-import { Button, Spin } from 'antd'
+import { Button, Modal, Spin } from 'antd'
 import clsx from 'clsx'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
@@ -21,16 +21,48 @@ export const Apply = () => {
 	const navigate = useNavigate()
 	const role = useAppSelector(state=>state.InfoUser.role)
 	const [sendData,{}] = useSubmitFormMutation()
+	const [url,setUrl] = useState('')
 	console.log('role',role)
 	const [requestStatus, changeStatus] = useState<
 		'loading' | 'error' | 'success' | 'none'
 	>('none')
-
+	const [isModalOpen, setIsModalOpen] = useState(false);
 	const userJson = localStorage.getItem('userInfo')
 	const pass =   localStorage.getItem('password')
 	const userData = userJson ?  JSON.parse(userJson) : []
 	const passData = pass ? JSON.parse(pass) : []
 	console.log('pass',pass)
+	// @ts-ignore
+	function setCookie (name, value, expires, path, domain, secure,samesite) {
+		document.cookie = name + "=" + escape(value) +
+		  ((expires) ? "; expires=" + expires : "") +
+		  ((path) ? "; path=" + path : "") +
+		  ((domain) ? "; domain=" + domain : "") + 
+		  ((secure) ? "; secure" : "")+
+		  ((samesite) ? "; samesite=" + samesite : "");
+ 	 }
+		  
+	function getCookie(name:any) {
+		var cookie = " " + document.cookie;
+		var search = " " + name + "=";
+		var setStr = null;
+		var offset = 0;
+		var end = 0;
+		if (cookie.length > 0) {
+			offset = cookie.indexOf(search);
+			if (offset != -1) {
+				offset += search.length;
+				end = cookie.indexOf(";", offset)
+				if (end == -1) {
+					end = cookie.length;
+				}
+				setStr = unescape(cookie.substring(offset, end));
+			}
+		}
+		return(setStr);
+		}
+
+
 
 	const request = async () => {
 		if(role==='ABITUR'){
@@ -43,7 +75,27 @@ export const Apply = () => {
 				y: 28
 			}
 			console.log('dataSend',dataSend)
-			sendData(dataSend)
+			sendData(dataSend).unwrap().then(res=>{
+					const sIdMatch = res.match(/setCookie\('s_id'\s*,\s*'([^']*)'/);
+					console.log('sIdMatch',sIdMatch[1])
+					const abitIdMatch = res.match(/setCookie\('abit_s_id'\s*,\s*'([^']*)'/);
+					console.log('abitIdMatch',abitIdMatch[1])
+					console.log(res)
+					const dateRegex = /setCookie\('s_id'\s*,\s*'[^']*',\s*'([^']*)'/;
+					const dateMatch = res.match(dateRegex);
+					console.log('dateMatch',dateMatch[1])
+					const urlRegex = /window\.location\.href="(abiturient_cabinet_new_start\?[^"]+)"/;
+					const urlMatch = res.match(urlRegex);
+					console.log('urlMatch',urlMatch[1])
+					setUrl(urlMatch[1])
+
+					setCookie('s_id'     , sIdMatch[1], dateMatch[1], '/','kpfu.ru','1','None');
+					setCookie('abit_s_id', abitIdMatch[1], dateMatch[1], '/','kpfu.ru','1','None');
+					console.log('cookie')
+					showModal()
+					// window.location.href = `https://abiturient.kpfu.ru/entrant/${urlMatch[1]}`
+				})
+			
 		}
 		changeStatus(() => 'loading')
 		const response = await getAdmission(dispatch)
@@ -60,6 +112,19 @@ export const Apply = () => {
 			}, 0)
 		}
 	}
+
+	const showModal = () => {
+		setIsModalOpen(true);
+	};
+
+	const handleOk = () => {
+		setIsModalOpen(false);
+		window.location.href = `https://abiturient.kpfu.ru/entrant/${url}en`
+	};
+
+	const handleCancel = () => {
+	setIsModalOpen(false);
+	};
 	return (
 		<div
 			className="rounded-[1vw] w-full px-[54px] py-[75px] flex h-full overflow-y-auto"
@@ -108,6 +173,9 @@ export const Apply = () => {
 					alt="avatar"
 				/>
 			</div>
+			<Modal title="Redirect" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+				<p>Are you sure you want to proceed?</p>
+     		 </Modal>
 		</div>
 	)
 }
