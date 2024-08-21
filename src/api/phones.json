@@ -1,0 +1,504 @@
+[
+	{ "id": 238, "country": "Abkhazia", "mask": "+\\940-99999" },
+	{
+		"id": 1,
+		"country": "Afghanistan",
+		"mask": "+\\93-99-999-9999"
+	},
+	{
+		"id": 239,
+		"country": "Aland Islands",
+		"mask": ["+358 18 999 99", "+358 18 99 99 99", "+358 457 999 9999"]
+	},
+	{ "id": 2, "country": "Albania", "mask": "+355 999 999-999" },
+	{ "id": 5, "country": "Algeria", "mask": "+213-99-999-9999" },
+	{ "id": 6, "country": "American Samoa", "mask": "+1 684 999-9999" },
+	{ "id": 7, "country": "Andorra", "mask": "+376-999-999" },
+	{ "id": 8, "country": "Angola", "mask": "+244 999 999-999" },
+	{ "id": 188, "country": "Anguilla", "mask": "+1 264 999-9999" },
+	{ "id": 3, "country": "Antarctica", "mask": "+672-199-999" },
+	{ "id": 9, "country": "Antigua and Barbuda", "mask": "+1 268 999-9999" },
+	{ "id": 11, "country": "Argentina", "mask": "+54 999 999-9999" },
+	{ "id": 17, "country": "Armenia", "mask": "+374-99-999-999" },
+	{ "id": 154, "country": "Aruba", "mask": "+297-999-9999" },
+	{ "id": 12, "country": "Australia", "mask": "+61-9-9999-9999" },
+	{ "id": 13, "country": "Austria", "mask": "+43 999 999-9999" },
+	{ "id": 10, "country": "Azerbaijan", "mask": "+\\9\\94-99-999-99-99" },
+	{ "id": 15, "country": "Bahrain", "mask": "+\\973-9999-9999" },
+	{ "id": 16, "country": "Bangladesh", "mask": "+880-99-999-999" },
+	{ "id": 18, "country": "Barbados", "mask": "+1 246 999-9999" },
+	{ "id": 35, "country": "Belarus", "mask": "+375 99 999-99-99" },
+	{ "id": 19, "country": "Belgium", "mask": "+32 999 999-999" },
+	{ "id": 27, "country": "Belize", "mask": "+501-999-9999" },
+	{ "id": 62, "country": "Benin", "mask": "+22\\9-99-99-9999" },
+	{ "id": 20, "country": "Bermuda", "mask": "+1 441 999-9999" },
+	{
+		"id": 21,
+		"country": "Bhutan",
+		"mask": ["+\\975-17-999-999", "+\\975-9-999-999"]
+	},
+	{ "id": 22, "country": "Bolivia", "mask": "+5\\91-9-999-9999" },
+	{ "id": 23, "country": "Bosnia and Herzegovina", "mask": "+387-99-9999" },
+	{ "id": 24, "country": "Botswana", "mask": "+267-99-999-999" },
+	{
+		"id": 25,
+		"country": "Bouvet Island",
+		"mask": ["+47 999-9999", "+47 9999-9999"]
+	},
+	{ "id": 26, "country": "Brazil", "mask": "+55 99 9999-9999" },
+	{
+		"id": 28,
+		"country": "British Indian Ocean Territory",
+		"mask": ["+246 379 9999", "+246 389 9999"]
+	},
+	{ "id": 30, "country": "British Virgin Islands", "mask": "+1 284 999-9999" },
+	{ "id": 31, "country": "Brunei", "mask": "+673-999-9999" },
+	{ "id": 32, "country": "Bulgaria", "mask": "+359 999 999-999" },
+	{ "id": 234, "country": "Burkina Faso", "mask": "+226-99-99-9999" },
+	{
+		"id": 33,
+		"country": "Burma",
+		"mask": ["+\\95-99-999-999", "+\\95-9-999-999", "+\\95-999-999"]
+	},
+	{ "id": 34, "country": "Burundi", "mask": "+257-99-99-9999" },
+	{ "id": 36, "country": "Cambodia", "mask": "+855-99-999-999" },
+	{ "id": 37, "country": "Cameroon", "mask": "+237-9999-9999" },
+	{ "id": 38, "country": "Canada", "mask": "+1 999 999-9999" },
+	{ "id": 39, "country": "Cape Verde", "mask": "+238 999 99-99" },
+	{
+		"id": 242,
+		"country": "Caribbean Netherlands",
+		"mask": "+5\\9\\9-999-9999"
+	},
+	{ "id": 40, "country": "Cayman Islands", "mask": "+1 345 999-9999" },
+	{
+		"id": 41,
+		"country": "Central African Republic",
+		"mask": "+236-99-99-9999"
+	},
+	{ "id": 43, "country": "Chad", "mask": "+235-99-99-99-99" },
+	{ "id": 44, "country": "Chile", "mask": "+56-9-9999-9999" },
+	{
+		"id": 45,
+		"country": "China",
+		"mask": ["+86 999 9999-9999", "+86 999 9999-999", "+86-99-99999-99999"]
+	},
+	{
+		"id": 47,
+		"country": "Christmas Island",
+		"mask": ["+672 99 9999", "+61 999 99 9999", "+61 99 9999 9999"]
+	},
+	{ "id": 48, "country": "Cocos (Keeling) Islands", "mask": "+61 9 9999 9999" },
+	{ "id": 49, "country": "Colombia", "mask": "+57 999 999-9999" },
+	{ "id": 52, "country": "Comoros", "mask": "+26\\9-99-99999" },
+	{ "id": 54, "country": "Congo", "mask": "+242-99-999-9999" },
+	{ "id": 56, "country": "Cook Islands", "mask": "+682-99-999" },
+	{ "id": 57, "country": "Costa Rica", "mask": "+506-9999-9999" },
+	{ "id": 112, "country": "Cote d'Ivoire", "mask": "+225-99-999-999" },
+	{ "id": 58, "country": "Croatia", "mask": "+385-99-999-999" },
+	{ "id": 59, "country": "Cuba", "mask": "+53-9-999-9999" },
+	{ "id": 240, "country": "Curacao", "mask": "+5\\9\\9-999-9999" },
+	{ "id": 60, "country": "Cyprus", "mask": "+357-99-999-999" },
+	{ "id": 61, "country": "Czech Republic", "mask": "+420 999 999-999" },
+	{
+		"id": 55,
+		"country": "Democratic Republic of the Congo",
+		"mask": "+243 999 999-999"
+	},
+	{ "id": 63, "country": "Denmark", "mask": "+45-99-99-99-99" },
+	{ "id": 81, "country": "Djibouti", "mask": "+253-99-99-99-99" },
+	{ "id": 64, "country": "Dominica", "mask": "+1 767 999-9999" },
+	{
+		"id": 65,
+		"country": "Dominican Republic",
+		"mask": ["+1 80\\9 999-9999", "+1 82\\9 999-9999", "+1 84\\9 999-9999"]
+	},
+	{ "id": 1250, "country": "Donetsk Republic", "mask": "+7 856 999-99-99" },
+	{
+		"id": 179,
+		"country": "East Timor",
+		"mask": ["+670-999-9999", "+670-779-99999", "+670-789-99999"]
+	},
+	{
+		"id": 66,
+		"country": "Ecuador",
+		"mask": ["+5\\93-99-999-9999", "+5\\93-9-999-9999"]
+	},
+	{ "id": 229, "country": "Egypt", "mask": "+20 999 999-9999" },
+	{ "id": 67, "country": "El Salvador", "mask": "+503-99-99-9999" },
+	{ "id": 68, "country": "Equatorial Guinea", "mask": "+240-99-999-9999" },
+	{ "id": 70, "country": "Eritrea", "mask": "+2\\91-9-999-999" },
+	{
+		"id": 71,
+		"country": "Estonia",
+		"mask": ["+372-9999-9999", "+372-999-9999"]
+	},
+	{ "id": 69, "country": "Ethiopia", "mask": "+251-99-999-9999" },
+	{
+		"id": 73,
+		"country": "Falkland Islands (Islas Malvinas)",
+		"mask": "+500-99999"
+	},
+	{ "id": 72, "country": "Faroe Islands", "mask": "+2\\98-999-999" },
+	{
+		"id": 166,
+		"country": "Federated States of Micronesia",
+		"mask": "+6\\91-999-9999"
+	},
+	{ "id": 75, "country": "Fiji", "mask": "+67\\9-99-99999" },
+	{ "id": 76, "country": "Finland", "mask": "+358 999 999-99-99" },
+	{ "id": 77, "country": "France", "mask": "+33 999 999-999" },
+	{ "id": 78, "country": "French Guiana", "mask": "+5\\94-99999-9999" },
+	{ "id": 79, "country": "French Polynesia", "mask": "+68\\9-99-99-99" },
+	{
+		"id": 80,
+		"country": "French Southern and Antarctic Lands",
+		"mask": "+262 99-99-99-99"
+	},
+	{ "id": 82, "country": "Gabon", "mask": "+241-9-99-99-99" },
+	{ "id": 83, "country": "Georgia", "mask": "+\\9\\95 999 999-999" },
+	{
+		"id": 86,
+		"country": "Germany",
+		"mask": [
+			"+4\\9 9999 999-9999",
+			"+4\\9 999 999-9999",
+			"+4\\9 999 99-9999",
+			"+4\\9 999 99-999",
+			"+4\\9 999 99-99",
+			"+4\\9-999-999"
+		]
+	},
+	{ "id": 87, "country": "Ghana", "mask": "+233 999 999-999" },
+	{ "id": 88, "country": "Gibraltar", "mask": "+350-999-99999" },
+	{ "id": 90, "country": "Greece", "mask": "+30 999 999-9999" },
+	{ "id": 91, "country": "Greenland", "mask": "+2\\9\\9-99-99-99" },
+	{ "id": 92, "country": "Grenada", "mask": "+1 473 999-9999" },
+	{ "id": 93, "country": "Guadeloupe", "mask": "+5\\90 999 999-999" },
+	{ "id": 94, "country": "Guam", "mask": "+1 671 999-9999" },
+	{ "id": 95, "country": "Guatemala", "mask": "+502-9-999-9999" },
+	{ "id": 247, "country": "Guernsey", "mask": "+44 1481 999999" },
+	{ "id": 96, "country": "Guinea", "mask": "+224-99-999-999" },
+	{ "id": 178, "country": "Guinea-Bissau", "mask": "+245-9-999999" },
+	{ "id": 97, "country": "Guyana", "mask": "+5\\92-999-9999" },
+	{ "id": 98, "country": "Haiti", "mask": "+50\\9-99-99-9999" },
+	{
+		"id": 99,
+		"country": "Heard Island and McDonald Islands",
+		"mask": "+61 999 999-9999"
+	},
+	{
+		"id": 100,
+		"country": "Holy See (Vatican City)",
+		"mask": "+3\\9-6-6\\98-99999"
+	},
+	{ "id": 101, "country": "Honduras", "mask": "+504-9999-9999" },
+	{ "id": 102, "country": "Hong Kong", "mask": "+852-9999-9999" },
+	{ "id": 103, "country": "Hungary", "mask": "+36 999 999-999" },
+	{ "id": 104, "country": "Iceland", "mask": "+354-999-9999" },
+	{ "id": 105, "country": "India", "mask": "+\\91 9999 999-999" },
+	{
+		"id": 106,
+		"country": "Indonesia",
+		"mask": [
+			"+62 899 999-9999",
+			"+62-99-999-99",
+			"+62-99-999-999",
+			"+62-99-999-9999",
+			"+62 899 999-999",
+			"+62 899 999-99-999"
+		]
+	},
+	{ "id": 107, "country": "Iran", "mask": "+\\98 999 999-9999" },
+	{ "id": 108, "country": "Iraq", "mask": "+\\964 999 999-9999" },
+	{ "id": 109, "country": "Ireland", "mask": "+353 999 999-999" },
+	{ "id": 249, "country": "Isle of Man", "mask": "+44 1624 999999" },
+	{
+		"id": 110,
+		"country": "Israel",
+		"mask": ["+\\972-59-999-9999", "+\\972-9-999-9999"]
+	},
+	{ "id": 111, "country": "Italy", "mask": "+3\\9 999 9999-999" },
+	{ "id": 113, "country": "Jamaica", "mask": "+1 876 999-9999" },
+	{
+		"id": 114,
+		"country": "Japan",
+		"mask": ["+81-99-9999-9999", "+81 999 999-999"]
+	},
+	{ "id": 248, "country": "Jersey", "mask": "+44 1534 999999" },
+	{ "id": 116, "country": "Jordan", "mask": "+\\962-9-9999-9999" },
+	{ "id": 115, "country": "Kazakhstan", "mask": "+7 699 999-99-99" },
+	{ "id": 117, "country": "Kenya", "mask": "+254-999-999999" },
+	{ "id": 89, "country": "Kiribati", "mask": "+686-99-999" },
+	{ "id": 120, "country": "Kuwait", "mask": "+\\965-9999-9999" },
+	{ "id": 121, "country": "Kyrgyzstan", "mask": "+\\9\\96 999 999-999" },
+	{ "id": 122, "country": "Laos", "mask": "+856 2099 999-999" },
+	{ "id": 125, "country": "Latvia", "mask": "+371-99-999-999" },
+	{
+		"id": 123,
+		"country": "Lebanon",
+		"mask": ["+\\961-99-999-999", "+\\961-9-999-999"]
+	},
+	{ "id": 124, "country": "Lesotho", "mask": "+266-9-999-9999" },
+	{ "id": 126, "country": "Liberia", "mask": "+231-99-999-999" },
+	{
+		"id": 127,
+		"country": "Libya",
+		"mask": ["+218-99-999-999", "+218-21-999-9999"]
+	},
+	{ "id": 128, "country": "Liechtenstein", "mask": "+423 999 999-9999" },
+	{ "id": 129, "country": "Lithuania", "mask": "+370 999 99-999" },
+	{ "id": 1251, "country": "Luhansk Republic", "mask": "+7 999 999-99-99" },
+	{ "id": 130, "country": "Luxembourg", "mask": "+352 999 999-999" },
+	{ "id": 131, "country": "Macau", "mask": "+853-9999-9999" },
+	{ "id": 132, "country": "Madagascar", "mask": "+261-99-99-99999" },
+	{
+		"id": 133,
+		"country": "Malawi",
+		"mask": ["+265-1-999-999", "+265-9-9999-9999"]
+	},
+	{
+		"id": 134,
+		"country": "Malaysia",
+		"mask": [
+			"+60-99-999-9999",
+			"+60 999 999-999",
+			"+60-99-999-999",
+			"+60-9-999-999"
+		]
+	},
+	{ "id": 135, "country": "Maldives", "mask": "+\\960-999-9999" },
+	{ "id": 136, "country": "Mali", "mask": "+223-99-99-9999" },
+	{ "id": 137, "country": "Malta", "mask": "+356-9999-9999" },
+	{ "id": 167, "country": "Marshall Islands", "mask": "+6\\92-999-9999" },
+	{ "id": 138, "country": "Martinique", "mask": "+5\\96 999 99-99-99" },
+	{ "id": 139, "country": "Mauritania", "mask": "+222-99-99-9999" },
+	{ "id": 140, "country": "Mauritius", "mask": "+230-999-9999" },
+	{ "id": 53, "country": "Mayotte", "mask": "+262-99999-9999" },
+	{
+		"id": 141,
+		"country": "Mexico",
+		"mask": ["+52 999 999-9999", "+52-99-99-9999"]
+	},
+	{ "id": 144, "country": "Moldova", "mask": "+373-9999-9999" },
+	{
+		"id": 142,
+		"country": "Monaco",
+		"mask": ["+377 999 999-999", "+377-99-999-999"]
+	},
+	{ "id": 143, "country": "Mongolia", "mask": "+\\976-99-99-9999" },
+	{ "id": 1248, "country": "Montenegro", "mask": "+382-99-999-999" },
+	{ "id": 145, "country": "Montserrat", "mask": "+1 664 999-9999" },
+	{ "id": 146, "country": "Morocco", "mask": "+212-99-9999-999" },
+	{ "id": 147, "country": "Mozambique", "mask": "+258-99-999-999" },
+	{ "id": 149, "country": "Namibia", "mask": "+264-99-999-9999" },
+	{ "id": 150, "country": "Nauru", "mask": "+674-999-9999" },
+	{ "id": 151, "country": "Nepal", "mask": "+\\977-99-999-999" },
+	{ "id": 152, "country": "Netherlands", "mask": "+31-99-999-9999" },
+	{
+		"id": 153,
+		"country": "Netherlands Antilles",
+		"mask": ["+5\\9\\9-999-9999", "+5\\9\\9-\\9999-9999"]
+	},
+	{ "id": 155, "country": "New Caledonia", "mask": "+687-99-9999" },
+	{
+		"id": 157,
+		"country": "New Zealand",
+		"mask": ["+64 999 999-999", "+64-99-999-999", "+64 999 999-9999"]
+	},
+	{ "id": 158, "country": "Nicaragua", "mask": "+505-9999-9999" },
+	{ "id": 159, "country": "Niger", "mask": "+227-99-99-9999" },
+	{
+		"id": 160,
+		"country": "Nigeria",
+		"mask": [
+			"+234 999 999-9999",
+			"+234-99-999-999",
+			"+234-99-999-99",
+			"+234 999 999-9999"
+		]
+	},
+	{ "id": 161, "country": "Niue", "mask": "+683-9999" },
+	{ "id": 162, "country": "Norfolk Island", "mask": "+672-399-999" },
+	{
+		"id": 118,
+		"country": "North Korea",
+		"mask": [
+			"+850-1\\91-999-9999",
+			"+850-99-999-999",
+			"+850-999-9999-999",
+			"+850-999-999",
+			"+850-9999-9999",
+			"+850-9999-9999999999999"
+		]
+	},
+	{
+		"id": 164,
+		"country": "Northern Mariana Islands",
+		"mask": "+1 670 999-9999"
+	},
+	{ "id": 163, "country": "Norway", "mask": "+47 999 99-999" },
+	{ "id": 148, "country": "Oman", "mask": "+\\968-99-999-999" },
+	{ "id": 169, "country": "Pakistan", "mask": "+\\92 999 999-9999" },
+	{ "id": 168, "country": "Palau", "mask": "+680-999-9999" },
+	{ "id": 85, "country": "Palestine", "mask": "+\\970-99-999-9999" },
+	{ "id": 170, "country": "Panama", "mask": "+507-999-9999" },
+	{ "id": 171, "country": "Papuaew Guinea", "mask": "+675 999 99-999" },
+	{ "id": 172, "country": "Paraguay", "mask": "+5\\95 999 999-999" },
+	{ "id": 173, "country": "Peru", "mask": "+51 999 999-999" },
+	{ "id": 174, "country": "Philippines", "mask": "+63 999 999-9999" },
+	{ "id": 175, "country": "Pitcairn Islands", "mask": "+64 99999999" },
+	{ "id": 176, "country": "Poland", "mask": "+48 999 999-999" },
+	{ "id": 177, "country": "Portugal", "mask": "+351-99-999-9999" },
+	{
+		"id": 180,
+		"country": "Puerto Rico",
+		"mask": ["+787 999 999-9999", "+\\93\\9 999 999-9999"]
+	},
+	{ "id": 181, "country": "Qatar", "mask": "+\\974-9999-9999" },
+	{
+		"id": 228,
+		"country": "Republic of Macedonia",
+		"mask": "+38\\9-99-999-999"
+	},
+	{ "id": 182, "country": "Reunion", "mask": "+262-99999-9999" },
+	{ "id": 183, "country": "Romania", "mask": "+40-99-999-9999" },
+	{ "id": 184, "country": "Russia", "mask": "+7 999 999-99-99" },
+	{ "id": 185, "country": "Rwanda", "mask": "+250 999 999-999" },
+	{ "id": 243, "country": "Saint Barthelemy", "mask": "+5\\90 2\\9 99-99-99" },
+	{ "id": 186, "country": "Saint Helena", "mask": "+2\\90-9999" },
+	{ "id": 187, "country": "Saint Kitts andevis", "mask": "+1 86\\9 999-9999" },
+	{ "id": 189, "country": "Saint Lucia", "mask": "+1 758 999-9999" },
+	{
+		"id": 241,
+		"country": "Saint Martin (Dutch part)",
+		"mask": "+1 721 999-9999"
+	},
+	{
+		"id": 244,
+		"country": "Saint Martin (French part)",
+		"mask": "+5\\90 999-9999"
+	},
+	{
+		"id": 190,
+		"country": "Saint Pierre and Miquelon",
+		"mask": ["+508 99 99 99", "+508 708 99 99 99"]
+	},
+	{
+		"id": 191,
+		"country": "Saint Vincent and the Grenadines",
+		"mask": "+1 784 999-9999"
+	},
+	{ "id": 50, "country": "Samoa", "mask": "+685-99-9999" },
+	{ "id": 192, "country": "San Marino", "mask": "+378-9999-999999" },
+	{ "id": 193, "country": "Sao Tome and Principe", "mask": "+23\\9-99-99999" },
+	{
+		"id": 194,
+		"country": "Saudi Arabia",
+		"mask": ["+\\966-5-9999-9999", "+\\966-9-999-9999"]
+	},
+	{ "id": 195, "country": "Senegal", "mask": "+221-99-999-9999" },
+	{ "id": 1249, "country": "Serbia", "mask": "+381-99-999-9999" },
+	{ "id": 196, "country": "Seychelles", "mask": "+248-9-999-999" },
+	{ "id": 197, "country": "Sierra Leone", "mask": "+232-99-999999" },
+	{ "id": 198, "country": "Singapore", "mask": "+65-9999-9999" },
+	{ "id": 199, "country": "Slovakia", "mask": "+421 999 999-999" },
+	{ "id": 201, "country": "Slovenia", "mask": "+386-99-999-999" },
+	{ "id": 29, "country": "Solomon Islands", "mask": "+677-999-9999" },
+	{
+		"id": 202,
+		"country": "Somalia",
+		"mask": ["+252-99-999-999", "+252-9-999-999", "+252-9-999-999"]
+	},
+	{ "id": 203, "country": "South Africa", "mask": "+27-99-999-9999" },
+	{
+		"id": 74,
+		"country": "South Georgia and the South Sandwich Islands",
+		"mask": "+\\9\\95 999 999-999"
+	},
+	{ "id": 119, "country": "South Korea", "mask": "+82-99-999-9999" },
+	{
+		"id": 250,
+		"country": "South Ossetia",
+		"mask": ["+7 \\92\\9 899 9999", "+7 850 999 9999"]
+	},
+	{ "id": 245, "country": "South Sudan", "mask": "+211-99-999-9999" },
+	{ "id": 205, "country": "Spain", "mask": "+34 999 999-999" },
+	{ "id": 42, "country": "Sri Lanka", "mask": "+\\94-99-999-9999" },
+	{ "id": 207, "country": "Sudan", "mask": "+24\\9-99-999-9999" },
+	{ "id": 246, "country": "Sudan", "mask": "+24\\9-99-999-9999" },
+	{
+		"id": 208,
+		"country": "Suriname",
+		"mask": ["+5\\97-999-9999", "+5\\97-999-999"]
+	},
+	{
+		"id": 209,
+		"country": "Svalbard and Jan Mayen",
+		"mask": "+47 7\\9 99 99 99"
+	},
+	{ "id": 210, "country": "Swaziland", "mask": "+268-99-99-9999" },
+	{ "id": 211, "country": "Sweden", "mask": "+46-99-999-9999" },
+	{ "id": 212, "country": "Switzerland", "mask": "+41-99-999-9999" },
+	{ "id": 213, "country": "Syria", "mask": "+\\963 99 999 9999" },
+	{
+		"id": 46,
+		"country": "Taiwan",
+		"mask": ["+886-9-9999-9999", "+886-9999-9999"]
+	},
+	{ "id": 214, "country": "Tajikistan", "mask": "+\\9\\92-99-999-9999" },
+	{ "id": 231, "country": "Tanzania", "mask": "+255-99-999-9999" },
+	{
+		"id": 215,
+		"country": "Thailand",
+		"mask": ["+66-99-999-9999", "+66-99-999-999"]
+	},
+	{ "id": 14, "country": "The Bahamas", "mask": "+1 242 999-9999" },
+	{ "id": 84, "country": "The Gambia", "mask": "+220 999 99-99" },
+	{ "id": 216, "country": "Togo", "mask": "+228-99-999-999" },
+	{ "id": 217, "country": "Tokelau", "mask": "+6\\90-9999" },
+	{ "id": 218, "country": "Tonga", "mask": "+676-99999" },
+	{ "id": 219, "country": "Trinidad and Tobago", "mask": "+1 868 999-9999" },
+	{ "id": 221, "country": "Tunisia", "mask": "+216-99-999-999" },
+	{ "id": 222, "country": "Turkey", "mask": "+\\90 999 999-9999" },
+	{ "id": 223, "country": "Turkmenistan", "mask": "+\\9\\93-9-999-9999" },
+	{
+		"id": 224,
+		"country": "Turks and Caicos Islands",
+		"mask": "+1 64\\9 999-9999"
+	},
+	{ "id": 225, "country": "Tuvalu", "mask": ["+688-\\909999", "+688-29999"] },
+	{ "id": 226, "country": "Uganda", "mask": "+256 999 999-999" },
+	{ "id": 227, "country": "Ukraine", "mask": "+380 99 999-99-99" },
+	{ "id": 220, "country": "United Arabmirates", "mask": "+\\971-59-999-9999" },
+	{ "id": 230, "country": "United Kingdom", "mask": "+44-99-9999-9999" },
+	{ "id": 232, "country": "United States", "mask": "+1 999 999-9999" },
+	{
+		"id": 165,
+		"country": "United States Minor Outlying Islands",
+		"mask": "+870 999999999"
+	},
+	{ "id": 235, "country": "Uruguay", "mask": "+5\\98-9-999-99-99" },
+	{ "id": 236, "country": "Uzbekistan", "mask": "+\\9\\98-99-999-9999" },
+	{ "id": 156, "country": "Vanuatu", "mask": ["+678-99-99999", "+678-99999"] },
+	{ "id": 237, "country": "Venezuela", "mask": "+58 999 999-9999" },
+	{
+		"id": 200,
+		"country": "Vietnam",
+		"mask": ["+84-99-9999-999", "+84 999 9999-999"]
+	},
+	{ "id": 233, "country": "Virgin Islands", "mask": "+1 340 999-9999" },
+	{ "id": 4, "country": "Wallis and Futuna", "mask": "+681-99-9999" },
+	{
+		"id": 206,
+		"country": "Western Sahara",
+		"mask": ["+212 5288-99999", "+212 528\\9-99999"]
+	},
+	{
+		"id": 51,
+		"country": "Yemen",
+		"mask": ["+\\967-999-999-999", "+\\967-9-999-999", "+\\967-99-999-999"]
+	},
+	{ "id": 1241, "country": "Zambia", "mask": "+260-99-999-9999" },
+	{ "id": 204, "country": "Zimbabwe", "mask": "+263-9-999999" }
+]
