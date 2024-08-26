@@ -19,6 +19,7 @@ import { passwordApi } from './slice/passwordSlice'
 import { scheduleApi } from './slice/scheduleSlice'
 import { studyPlanApi } from './slice/studyPlanSlice'
 import { abiturientApi } from './api/abitRedirect'
+import { api } from './api/recoverPassword'
 
 export const store = configureStore({
 	reducer: {
@@ -39,6 +40,7 @@ export const store = configureStore({
 		[acadPerfApi.reducerPath]: acadPerfApi.reducer,
 		[studyPlanApi.reducerPath]: studyPlanApi.reducer,
 		[abiturientApi.reducerPath]: abiturientApi.reducer,
+		[api.reducerPath]: api.reducer,
 	},
 	middleware: getDefaultMiddleware =>
 		getDefaultMiddleware()
@@ -51,6 +53,7 @@ export const store = configureStore({
 			.concat(acadPerfApi.middleware)
 			.concat(passwordApi.middleware)
 			.concat(abiturientApi.middleware)
+			.concat(api.middleware)
 })
 
 export type RootState = ReturnType<typeof store.getState>
